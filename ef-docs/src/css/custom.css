@@ -1,0 +1,62 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ @font-face {
+  font-family: 'Montserrat'; /* Choose a unique name for your font */
+  src: url('/static/font/Montserrat-VariableFont_wght.ttf') format('truetype'); /* Path to your font file and format */
+  font-weight: normal; /* Adjust if your font has specific weights */
+  font-style: normal;  /* Adjust if your font has specific styles (italic, etc.) */
+  font-display: swap;  /* Recommended for performance and user experience */
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #43418C;
+  --ifm-color-primary-dark: #3c3a7e;
+  --ifm-color-primary-darker: #393777;
+  --ifm-color-primary-darkest: #2f2d62;
+  --ifm-color-primary-light: #4a489a;
+  --ifm-color-primary-lighter: #4d4ba1	;
+  --ifm-color-primary-lightest: #5b59b2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #f581fe;
+  --ifm-color-primary-dark: #f25bfe;
+  --ifm-color-primary-darker: #f048fe;
+  --ifm-color-primary-darkest: #ec0ffd;
+  --ifm-color-primary-light: #f8a7fe;
+  --ifm-color-primary-lighter: #fabafe;
+  --ifm-color-primary-lightest: #fef3ff;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 1);
+}
+
+/* Apply to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat'; /* Add a fallback generic font */
+}
+
+/* Apply to the entire body of the site */
+body {
+  font-family: 'Montserrat';
+}
+
+/* Or specific elements like your hero banner title */
+.hero__title {
+  font-family: 'Montserrat';
+  color: white; /* Existing style */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.hero__subtitle {
+  font-family: 'Montserrat';
+    color: white; /* Existing style */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+

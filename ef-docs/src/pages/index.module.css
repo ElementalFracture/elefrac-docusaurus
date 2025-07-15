@@ -1,0 +1,32 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  min-height: 70vh; 
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url('https://api.elefrac.com/cdn/api/v1/buckets/assets/objects/download?preview=true&prefix=promo-1yr-elefrac-mod-logo-only.png&version_id=null'); /* <--- Add this line */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
