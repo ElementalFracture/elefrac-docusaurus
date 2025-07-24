@@ -5,48 +5,48 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Dive back into the Hollow Lands.',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      When Spellbreak was passed to the community, it wasn't designed for scaling up to how it was while the game was live. While Elemental Fracture has carried the mantle by doing much of the scaling up, the setup is now quite less intuitive. We've curated this page filled with helpful resources to help get started!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'We\'re so glad you\'re here.',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      At Elemental Fracture, our mission is simple: we want to bring our Spellbreak community together to resurrect the game we love. Whether you're a seasoned pro or just discovering this game, we want to welcome you to our community where friendships are made and flourish, skills sharpen, and the passion for Spellbreak burns brighter than ever.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Join our community for more.',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Elemental Fracture is an ever-growing community. Come be a part of the action in our Discord Server!
+      </>
+    ),
+  },
+    {
+    title: 'Support our cause!',
+    description: (
+      <>
+        We're committed to keeping the game completely free and accessible for everyone. You’ll never be asked to contribute financially to enjoy the game. That said, if you’re passionate about supporting our growing community, we gladly welcome any contributions to help us maintain and improve our server infrastructure or volunteering as support staff in our Discord. If you choose to contribute financially, all funds collected are dedicated solely to expenses like server infrastructure and website. Our dedicated team, volunteer their time, talents, and efforts.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

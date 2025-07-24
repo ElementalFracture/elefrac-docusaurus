@@ -6,7 +6,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Elemental Fracture',
-  tagline: 'Learn your way back home.',
   favicon: 'https://cdn.elefrac.com/assets/Logos/Socials-Logo-2.jpg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -53,6 +52,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          // Add this line to specify the new base path for your blog
+          routeBasePath: 'patchnotes', // <--- Add this line
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -72,20 +73,20 @@ const config: Config = {
     // Replace with your project's social card
     image: 'https://cdn.elefrac.com/assets/Logos/Elefrac-Logo-2025-LO.png',
     navbar: {
-      title: 'Elemental Fracture Docs',
       logo: {
         alt: 'Elemental Fracture site logo',
         src: 'https://cdn.elefrac.com/assets/Logos/web-logo-black.png',
-        srcDark: 'https://cdn.elefrac.com/assets/Logos/web-logo-white.png', 
+        srcDark: 'https://cdn.elefrac.com/assets/Logos/web-logo-white.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Quick-start Guide',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // Change the 'to' property to match your new routeBasePath
+        {to: '/patchnotes', label: 'Patch Notes', position: 'left'}, // <--- Change this line
         {
           href: 'https://github.com/elementalfracture',
           label: 'GitHub',
@@ -113,7 +114,7 @@ const config: Config = {
             },
             {
               label: 'Patch Notes',
-              to: '/patch-notes',
+              to: '/blog',
             },
           ],
         },
@@ -140,15 +141,19 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/elementalfracture/',
             },
+            {
+              label: 'Patreon',
+              href: 'https://patreon.com/elementalfracture/'
+            },
           ],
         },
       ],
-      copyright: `<b>Elemental Fracture</b> is a community-driven project operating under the principles of <b>Fair Use</b> to preserve the online services of <i>Spellbreak</i>®, originally developed by <b>Proletariat, Inc.</b>, now a subsidiary of <b>Blizzard Entertainment</b>. <b>Elemental Fracture</b> is not affiliated with or endorsed by <b>Proletariat, Inc.</b>, and <b>all</b> individuals involved in this effort <b><i>receive no financial compensation for their participation</b></i>. Any donations made to the project are solely directed toward maintaining essential services, such as 
-      
-      <a href="https://elefrac.com" target="_blank" rel="noreferrer noopener">our website</a>, game servers, and our content delivery network (CDN) for patch updates. 
-      
+      copyright: `<b>Elemental Fracture</b> is a community-driven project operating under the principles of <b>Fair Use</b> to preserve the online services of <i>Spellbreak</i>®, originally developed by <b>Proletariat, Inc.</b>, now a subsidiary of <b>Blizzard Entertainment</b>. <b>Elemental Fracture</b> is not affiliated with or endorsed by <b>Proletariat, Inc.</b>, and <b>all</b> individuals involved in this effort <b><i>receive no financial compensation for their participation</b></i>. Any donations made to the project are solely directed toward maintaining essential services, such as
+
+      <a href="https://elefrac.com" target="_blank" rel="noreferrer noopener">our website</a>, game servers, and our content delivery network (CDN) for patch updates.
+
       While <i>Spellbreak</i>® has been abandoned by its developers, the concept of "Abandonware" <a href="https://en.wikipedia.org/wiki/Stardock_Systems,_Inc._v._Reiche" target="_blank" rel="noreferrer noopener">does not grant legal ownership or the right to republish proprietary intellectual property</a>.
-      
+
       Our efforts align with the  <a href="https://en.wikipedia.org/wiki/Video_game_preservation" target="_blank" rel="noreferrer noopener">principles of video game preservation</a> and are supported by the <a href="https://www.federalregister.gov/d/2018-23241" target="_blank" rel="noreferrer noopener">2018 federal ruling</a> that provides exemptions for preserving online-only games under specific conditions.`,
     },
     prism: {

@@ -1,0 +1,14 @@
+balance-patch:
+  label: Game Updates
+  permalink: /balance
+  description: Tag description for Balance Patch Notes
+
+discord:
+  label: Discord
+  permalink: /discord
+  description: Discord tag description
+
+qol:
+  label: Quality of Life
+  permalink: /qol
+  description: Quality of life (QoL) tag description

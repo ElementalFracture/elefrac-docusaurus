@@ -15,10 +15,15 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       {/* The content container that centers the text and button */}
       <div className="container">
-        {/* Your title text. If the logo is in the background, you might want to hide this or make it transparent. */}
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title} {/* This is "Elemental Fracture" */}
-        </Heading>
+        {
+          <Heading as="h1" className="hero__title">
+          {"This is"}
+          </Heading>
+        }
+        {
+          <img src='https://api.elefrac.com/cdn/api/v1/buckets/assets/objects/download?preview=true&prefix=Logos%2Fhero-logo-white.png' alt='Elemental Fracture Main Logo'> 
+          </img>
+        }
         {/* Your tagline */}
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>

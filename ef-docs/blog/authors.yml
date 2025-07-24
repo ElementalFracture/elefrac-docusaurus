@@ -1,0 +1,22 @@
+doobs:
+  name: Brendon (Doobs)
+  title: Project Lead
+  url: https://github.com/astrodoobs
+  image_url: https://github.com/astrodoobs.png
+  page: 
+    permalink: '/doobs'
+  socials:
+    x: astrodoobs
+    github: astrodoobs
+    twitch: astrodoobs
+
+capnhappy:
+  name: Tom (Cap'n Happy)
+  title: Project Lead
+  image_url: https://cdn.discordapp.com/avatars/162675440383819779/88c420bb5c7c913500ae720540404bc4.png?size=1024
+  page:
+    permalink: '/capnhappy'
+  socials:
+    x: capn_happy
+    twitch: capn_happy
+
