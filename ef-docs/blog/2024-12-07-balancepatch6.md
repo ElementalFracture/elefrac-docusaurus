@@ -5,8 +5,11 @@ authors: [doobs, capnhappy]
 tags: [balance-patch]
 ---
 
-This document outlines the changes introduced in the sixth modded balance patch for the Community Edition of Spellbreak.
+This document outlines the changes introduced in the sixth and most current modded balance patch for the Community Edition of Spellbreak.
 
+[Download](https://cdn.elefrac.com/patch/latest.zip)
+
+<!-- truncate -->
 ## General Changes
 * **Dodge** has been disabled.
 * The ability to cancel levitate by firing your gauntlets has been removed. You must now stop levitating (release the spacebar) before you can fire your gauntlets.

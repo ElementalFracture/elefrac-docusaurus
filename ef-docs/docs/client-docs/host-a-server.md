@@ -4,8 +4,15 @@ sidebar_position: 3
 
 # How to Host a Server
 
-This guide explains how to host your own match on a server you control. If you're looking to play in someone else’s match, check out the [setup guide](https://github.com/ElementalFracture/Guides/wiki/Elemental-Fracture-Quick%E2%80%90Setup-Guide). **While Elemental Fracture doesn't provide explicit support in hosting your own servers, such as assistance with setting up portforwarding, we are happy to assist by providing the general steps to get set up.**
+This guide explains how to host your own match on a server you control. If you're looking to play in someone else’s match, check out the [setup guide](/docs/intro.md). 
 
+:::warning
+While we are happy to assist by providing the general steps to get set up,Elemental Fracture doesn't provide explicit support in hosting your own servers, such as assistance with setting up portforwarding and firewall configuration.
+:::
+
+:::danger
+Opening access to your network via portforwarding can be dangerous if done incorrectly!
+:::
 ## Clients and Servers
 
 Spellbreak Community Edition is divided into two components:
@@ -99,7 +106,7 @@ Before running the server for the first time, install the **Unreal Engine 4 Prer
 
 ### Installing the Balance Patch
 
-Much like the manual setup in our [setup guide](guide.md), you'll need to install the balance patch manually.
+Much like the manual setup in our [setup guide](/docs/intro.md), you'll need to install the balance patch manually.
 1. Download the latest balance patch from [here](https://cdn.elefrac.com/patch/latest.zip).
 2. Extract the ZIP file and place the contents into the following directory within your game folder: `g3/Content/Paks`.
 
@@ -115,4 +122,4 @@ The server can be started by running one of the included batch files, such as `S
 
 - The server may take 1-2 minutes to load the world. Players will be able to join once the scrolling text stops.
 - If a client cannot connect or remains on "connecting" for too long, check the server status and port forwarding.
-- Check out the [FAQ](/ef-docs/docs/faq/faq.md) which has some additional troubleshooting steps.
+- Check out the [FAQ](/docs/extras/faq.md) which has some additional troubleshooting steps.

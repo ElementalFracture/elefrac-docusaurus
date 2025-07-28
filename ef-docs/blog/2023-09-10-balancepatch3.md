@@ -7,6 +7,10 @@ tags: [balance-patch]
 
 This document outlines the changes introduced in the third modded balance patch for the Community Edition of Spellbreak.
 
+[Download](https://cdn.elefrac.com/patch/archive/ElefracBalance3_P.pak)
+
+<!-- truncate -->
+
 ## General Changes
 
 ### UI / Effects

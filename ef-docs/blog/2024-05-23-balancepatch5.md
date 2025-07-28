@@ -7,6 +7,10 @@ tags: [balance-patch]
 
 This document outlines the changes introduced in the fifth modded balance patch for the Community Edition of Spellbreak.
 
+[Download](https://cdn.elefrac.com/patch/archive/ElefracBalance5_P.pak)
+
+<!-- truncate -->
+
 ## General Changes
 * Storm damage will no longer instantly kill players during the final circle countdown. It will instead deal heavy damage and will still insta-close after the 3-minute countdown.
 * **Levitate**: Upward speed has been reduced from 850 to 700.
@@ -89,3 +93,5 @@ This document outlines the changes introduced in the fifth modded balance patch 
 * **Shadowstep**: Cooldown has been decreased at higher rarities:
     * **Epic**: 8s -> 7.5s
     * **Legendary**: 7s -> 6.5s
+
+

@@ -7,6 +7,9 @@ tags: [qol, discord]
 
 Hey everyone, Doobs here!  
 Man, what a ride this has been. Before we get into the meat of it, let me first say: I know, I know. I said six hours. Turns out, when you rip out the plumbing and start replacing it, sometimes you find a few extra leaks along the way. But after what felt like an endless cycle of fixing one thing only to break another, I’m happy to report that everything is up and running better than ever. This update is a **big deal** - in fact, it's so big, I'm past the Nitro limit. We’ve overhauled the infrastructure, tightened up security, improved server efficiency, and added some much-needed automation. Oh, and I threw in a few quality-of-life back-end improvements to make my life a little easier. 
+
+<!-- truncate -->
+
 ## **New Features & Enhancements**  
 ### **1. Say Hello to Marla 2.0**  
 Marla has been fully integrated into the system! She’s still a work in progress (aren’t we all?), but I think it's time to officially call this version 2.0 complete! If you’ve got ideas for new features or tweaks, let me know. She’s here to make life easier, and I want to keep improving her based on what **you** need.  
@@ -53,4 +56,7 @@ Here’s what’s on the roadmap:
 1. **No More Manual IP Entry.** I’ve been looking into mapping network packets to specific game modes, so you’d just pick a mode and automatically connect—no need to type in an IP.
 2. **Authentication & Tracking System.** I want to build a system that ties player progress or even ELO to your Sentinel profile. This would open the door for more competitive gameplay, matchmaking improvements, and even tournament events.  
 
-If you run into issues, have feedback, or just want to tell me how much you love (or hate) the changes, or if you think I’ve yapped too much, let me know. Thank you for always being the greatest part of Elemental Fracture, and as always, I'm excited for what’s next!3
+If you run into issues, have feedback, or just want to tell me how much you love (or hate) the changes, or if you think I’ve yapped too much, let me know. Thank you for always being the greatest part of Elemental Fracture, and as always, I'm excited for what’s next!
+
+<!-- truncate -->
+

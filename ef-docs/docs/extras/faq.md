@@ -52,12 +52,12 @@ If you're having trouble opening the console:
 
 ### Can I use the server to play with my friends, or to play alone?
 
-Certainly! You're welcome to use the server for 1v1 matches and Battle Royale, as long as you're not the only player in that game mode. Please be considerate of other players who may want to use the server. If the servers are occupied and you wish to play 1v1 or Battle Royale with one or two friends, consider [hosting your own server](https://github.com/ElementalFracture/Guides/wiki/How-to-Host-a-Server).
+Certainly! You're welcome to use the server for 1v1 matches and Battle Royale, as long as you're not the only player in that game mode. Please be considerate of other players who may want to use the server. If the servers are occupied and you wish to play 1v1 or Battle Royale with one or two friends, consider [hosting your own server](/docs/client-docs/host-a-server.md).
 
 ---
 
 ### How do I host my own server?
-For instructions on hosting your own server, consult the guide on [how to host a server](../client-docs/host-a-server.md). It provides comprehensive details on the process.
+For instructions on hosting your own server, consult the guide on [how to host a server](/docs/client-docs/host-a-server.md). It provides comprehensive details on the process.
 
 ---
 
@@ -74,7 +74,7 @@ We're open to suggestions for changes. Feel free to join the active discussion o
 ---
 
 ### Can I mod the game or make changes?
-Absolutely! Elemental Fracture has already introduced balance patches, and you can learn how to install these patches in the [setup guide](../intro.md). Please note that if you have additional mods installed, you won't be able to play on Elemental Fracture as the conflict between our servers and your client would probably make for an unplayable experience.
+Absolutely! Elemental Fracture has already introduced balance patches, and you can learn how to install these patches in the [setup guide](/docs/intro.md). Please note that if you have additional mods installed, you won't be able to play on Elemental Fracture as the conflict between our servers and your client would probably make for an unplayable experience.
 
 ---
 

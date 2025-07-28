@@ -7,6 +7,8 @@ tags: [balance-patch]
 
 Hello everyone, Doobs and Cappy here! Can you believe it's already been one whole year since Spellbreak shut down? How time has flown. Anyway, to celebrate the year, we wanted to make *big* changes to (as much as we could) to the game. We hope you look forward to these updates!
 
+<!-- truncate -->
+
 ## Talent Changes
 
 * **Athletic** has been replaced by **Vivify**:

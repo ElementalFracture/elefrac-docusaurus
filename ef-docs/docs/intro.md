@@ -10,6 +10,10 @@ sidebar_position: 1
 
 If applicable, uninstall any versions of the original game (e.g., from Steam or Epic Games). You can do this by removing them from their respective clients or using "Add or Remove Programs" within Windows.
 
+:::warning
+The original game **does not function at all** with the Community Version, and attempting to utilize the original game will result in connection errors!
+:::
+
 ---
 
 ## A. Setting Up Using the Launcher (Highly recommended!)
@@ -39,7 +43,9 @@ Elemental Fracture hosts several dedicated servers for NA and EU, including Solo
 - EU Solos: 7777
 - EU Arenas/TDMs: 7778
 
-**Please note:** the EU servers are hosted by a member of the community and are not within Elemental Fracture's control, we will liaise with the owner in the event of issues. 
+:::info 
+Affiliate communities for EU and JP servers are hosted by members of Elemental Fracture and are not within Elemental Fracture's control; we will liaise with the owner in the event of issues. 
+:::
 
 ---
 ## B. Manual Setup

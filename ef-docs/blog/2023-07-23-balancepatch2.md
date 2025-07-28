@@ -7,6 +7,10 @@ tags: [balance-patch]
 
 Hello; a few updates for you all today; and apologies for the ghost pings - Dyno is a little bit drunk. This document outlines the changes introduced in the second modded balance patch for the Community Edition of Spellbreak. Version 2 of the Elefrac Balance Patch is now live - you can download it from https://www.nexusmods.com/spellbreak/mods/2 and the change log is attached for you! The balance patch has been applied to our live servers so you will need the new version in order to play on our servers.
 
+[Download](https://cdn.elefrac.com/patch/archive/ElefracBalance2_P.pak)
+
+<!-- truncate -->
+
 ## General
 * The "Slow" effect has been halved.
 ## Runes

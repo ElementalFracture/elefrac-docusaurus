@@ -53,7 +53,7 @@ const config: Config = {
             xslt: true,
           },
           // Add this line to specify the new base path for your blog
-          routeBasePath: 'patchnotes', // <--- Add this line
+          routeBasePath: 'patchnotes',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -61,6 +61,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          blogSidebarCount: 'ALL',
+
         },
         theme: {
           customCss: './src/css/custom.css',

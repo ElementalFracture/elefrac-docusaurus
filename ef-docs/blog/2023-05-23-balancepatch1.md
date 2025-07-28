@@ -9,6 +9,10 @@ Hello everyone, Cap'n Happy here. I'm pleased to announce that modding is on the
 
 We have still yet to fully reverse engineer the game, so entirely new content is still not within our scope however, we have already seen cosmetic changes from Timmy and now we're in a position where we would like to take feedback/ suggestions from the community on balance changes we can look to make with an (un)official patch via a mod.
 
+[Download](https://cdn.elefrac.com/patch/archive/ElefracBalance1_P.pak)
+
+<!-- truncate -->
+
 ## General
 ### Movement
 * Strafing speed has been slightly increased.
